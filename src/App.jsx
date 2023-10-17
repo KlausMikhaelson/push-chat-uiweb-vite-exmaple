@@ -9,10 +9,10 @@ import './App.css'
 function App() {
 
   return (
-<div>  
-  <ChatUIProvider env={"staging"} theme={lightChatTheme}>
+<div style={{height: "70vh"}}>  
+  <ChatUIProvider env={"prod"} theme={lightChatTheme}>
         <ChatViewComponent
-          chatId="69159d7bfdb8ee705e436decf8a425423d90b7e2b24ea53b9541d7fa45154ef3"
+          chatId="4ac5ab85c9c3d57adbdf2dba79357e56b2f9ef0256befe750d9f93af78d2ca68"
           limit={10}
         />
       </ChatUIProvider>
